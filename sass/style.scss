@@ -1,0 +1,65 @@
+body {
+    background-color: #e6f2ff;
+    margin: 0 auto;
+    padding: 0;
+
+    .app {
+        .label {
+            color: #000099;
+            font-size: 20px;
+            font-weight: 700;
+            padding-top: 10px;
+        }
+        .contactsList {
+            margin: 0;
+            padding: 10px;
+            .contactItem {
+                margin: 10px;
+                border: 1px solid black;
+                width: 25vw;
+                padding: 5px;
+                border-radius: 5px;
+                background: white;
+                .contactImage {
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px 0;
+                }
+                .contactLabel {
+                    font-size: 1.2em;
+                }
+                .contactEmail {
+                    text-decoration: none;
+                    font-size: 1em;
+                }
+                .phoneLabel {
+                    text-decoration: none;
+                    font-size: 1.2em;
+                }
+            }
+        }
+        .contactForm {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 35vw;
+                height: 30px;
+                border-radius: 4px;
+                color: #ffffff;
+                border: 1px solid black;
+                margin-bottom: 15px;
+                padding: 5px;
+            }
+            button {
+                width: 100px;
+                height: 30px;
+                border-radius: 2px;
+                color: #ffffff;
+                background-color: #0080ff;
+                border: none;
+            }
+        }
+    }
+}

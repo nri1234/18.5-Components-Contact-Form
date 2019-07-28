@@ -1,0 +1,21 @@
+body { background-color: #e6f2ff; margin: 0 auto; padding: 0; }
+
+body .app .label { color: #000099; font-size: 20px; font-weight: 700; padding-top: 10px; }
+
+body .app .contactsList { margin: 0; padding: 10px; }
+
+body .app .contactsList .contactItem { margin: 10px; border: 1px solid black; width: 25vw; padding: 5px; border-radius: 5px; background: white; }
+
+body .app .contactsList .contactItem .contactImage { width: 40px; height: 40px; padding: 10px 0; }
+
+body .app .contactsList .contactItem .contactLabel { font-size: 1.2em; }
+
+body .app .contactsList .contactItem .contactEmail { text-decoration: none; font-size: 1em; }
+
+body .app .contactsList .contactItem .phoneLabel { text-decoration: none; font-size: 1.2em; }
+
+body .app .contactForm { padding: 20px; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
+
+body .app .contactForm input { width: 35vw; height: 30px; border-radius: 4px; color: #ffffff; border: 1px solid black; margin-bottom: 15px; padding: 5px; }
+
+body .app .contactForm button { width: 100px; height: 30px; border-radius: 2px; color: #ffffff; background-color: #0080ff; border: none; }
